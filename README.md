@@ -4,8 +4,6 @@ A medicine reminder for Alzheimer's patients and older people who forget their m
 
 At dose time the buzzer rings, the laptop screen turns red with the medicine name, and the laptop says the name out loud. The pill count goes down and the dose is saved in a log, so the caretaker can see which medicine was taken and when.
 
-> Applied Physics Open Ended Lab (Lab 16), Department of Cyber Security, MUET Jamshoro.
-
 ![Laptop screen of the dispenser](docs/images/laptop-screen.png)
 
 ---
@@ -107,7 +105,7 @@ The `tests` folder has three small sketches. Upload them one by one to check eac
 
 ### Demo speed
 
-In real use doses are hours apart. For a demo, change this line near the top of the main program and upload again:
+In real use doses are hours apart. To demo it, change this line near the top of the main program and upload again:
 
 ```cpp
 const unsigned long CLOCK_SPEED = 60;   // 1 second = 1 minute
@@ -167,7 +165,6 @@ smart-medicine-dispenser/
 │   └── Test3_Buzzer/                         buzzer test
 └── docs/
     ├── images/                               screenshots for this README
-    ├── Lab_Report.docx                       lab report
     └── Project_Explained.pdf                 full explanation of the project
 ```
 
@@ -193,14 +190,6 @@ smart-medicine-dispenser/
 - For Alzheimer's patients the device can stay very simple, just a buzzer, while all the details go to the caretaker.
 
 ---
-
-## Team
-
-| Name | Roll No. |
-|---|---|
-| Nihal Hyder Shah | 26BSCYS012 |
-| Kaleem Ashraf | 26BSCYS030 |
-| Sameer Ali | 26BSCYS003 |
 
 ## License
 

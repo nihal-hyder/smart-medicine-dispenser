@@ -1,8 +1,6 @@
 /*
   ==========================================================
    SMART MEDICINE DISPENSER
-   Applied Physics Open Ended Lab, Department of Cyber Security, MUET
-   Nihal Hyder Shah | Kaleem Ashraf | Sameer Ali
   ==========================================================
 
   The laptop is the screen. The Arduino sends what the LCD
@@ -33,7 +31,7 @@ const byte BTN_UP    = 3;
 const byte BTN_DOWN  = 4;
 const byte BUZZER    = 8;
 
-// 1 = real time. 60 = demo speed for the lab (1 second = 1 minute)
+// 1 = real time. 60 = demo speed (1 second = 1 minute)
 const unsigned long CLOCK_SPEED = 1;
 
 const byte NUM_MEDS = 3;
